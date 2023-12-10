@@ -30,7 +30,7 @@ num_word_dict = {
     "9": "9",
 }
 
-with open("Puzzle1.txt", 'r') as file:
+with open("Puzzle1.txt", 'r', encoding="utf-8") as file:
     lines = file.readlines()
     for line in lines:
         num = ''
