@@ -114,7 +114,7 @@ def convertToRange(list):
             converted_to_range.append(list[i*2] + j)
     return converted_to_range
     
-mapped_list = convertToRange(seeds[:2])
+mapped_list = convertToRange(seeds[:])
 print("step 1 of 8")
 mapped_list = mapping(mapped_list, seed_to_soil)
 print("step 2 of 8")
