@@ -1,10 +1,10 @@
 """
--------------------------
+--------------------------
     Advent of Code 2023
-    Alireza Bolourian
+       Alirezabln
     Challenge 2 of 25
         Part 2
--------------------------
+--------------------------
 """
 
 example = ["Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green",
