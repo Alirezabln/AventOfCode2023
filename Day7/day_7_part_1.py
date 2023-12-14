@@ -3,7 +3,7 @@
     Advent of Code 2023
     Alireza Bolourian
     Challenge 7 of 25
-      Part 1 of 2
+      Part 1 of 2 
 -------------------------
 """
 
@@ -40,7 +40,7 @@ else:
     lines = example
 
 #print(lines)
-
+#sort the hands based on kind
 def sort_rank(hands):
     five_of_kind = []
     four_of_kind = []
