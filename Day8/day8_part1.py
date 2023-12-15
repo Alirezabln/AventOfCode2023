@@ -67,7 +67,7 @@ def follow_next_node(start_node, element):
 
 #steps = follow_next_node(node, element)
 #print(steps)
-#non recursive way because the maxium recursion depth is reached
+#non recursive way because the maximum recursion depth is reached
 while(node != "ZZZ"):
     next_steps = network_dict.get(node)
     if directions_str[element] == 'L':
