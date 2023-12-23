@@ -99,8 +99,8 @@ def get_distance(point, points):
         distances.append(distance)
     return sum(distances)
 
-# Count the sum of shoertest distances between each pair of stars, couting each pair only once
-distance = 0
+# Count the sum of shortest distances between each pair of stars, counting each pair only once
+shortest_distance = 0
 for i in range(len(star_positions)):
-    distance += get_distance(star_positions[i], star_positions[i:])
-print(f"Part1 Answer: {distance}")
+    shortest_distance += get_distance(star_positions[i], star_positions[i:])
+print(f"Part1 Answer: {shortest_distance}")
