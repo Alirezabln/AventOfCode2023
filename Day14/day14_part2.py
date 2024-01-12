@@ -7,7 +7,6 @@
 -------------------------
 """
 
-from functools import lru_cache
 from copy import deepcopy
 real_data = True
 
@@ -23,7 +22,6 @@ example = [
     "#....###..",
     "#OO..#...."
 ]
-
 
 # open file and store the input into a list
 with open('Day14\day14_input.txt', 'r') as file: 
@@ -76,7 +74,6 @@ def slide_east(col_index):
                 row[col_index] = '.'
     slide_east(col_index+1) 
 
-
 def slide_all():
     for index in range(len(input)):
         slide_north(index)
@@ -121,7 +118,6 @@ for i in range(num-index):
             #print(row)
     slide_all() 
  
-    
 #for items in cycle:
     #print("cycle")
     #for item in items:
